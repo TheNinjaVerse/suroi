@@ -4,10 +4,10 @@ import type { ModeName } from "@common/definitions/modes";
 export const Config = {
     regions: {
         dev: {
-            name: "Local Server",
-            mainAddress: "http://127.0.0.1:8000",
-            gameAddress: "ws://127.0.0.1:<gameID>",
-            offset: 8001
+            name: "Aries Server",
+            mainAddress: "https://suroi.aries.pizza",
+            gameAddress: "wss://suroi.aries.pizza/game/<gameID>",
+            offset: 1
         }/* ,
         na: {
             name: "North America",
