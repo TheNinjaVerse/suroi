@@ -3,8 +3,8 @@ import type { ModeName } from "@common/definitions/modes";
 
 export const Config = {
     regions: {
-        aries: {
-            name: "Aries Server",
+        private: {
+            name: "Private Server",
             mainAddress: "https://server.suroi.aries.pizza",
             gameAddress: "wss://server.suroi.aries.pizza/game/<gameID>",
             offset: 1
@@ -45,7 +45,7 @@ export const Config = {
             offset: 1
         } */
     },
-    defaultRegion: "aries"
+    defaultRegion: "private"
 } satisfies ConfigType as ConfigType;
 
 export interface ConfigType {
