@@ -8,13 +8,13 @@ export const Config = {
             mainAddress: "https://fast.server.suroi.aries.pizza",
             gameAddress: "wss://fast.server.suroi.aries.pizza/game/<gameID>",
             offset: 1
-        },
+        }/* ,
         slow: {
             name: "Slow Server",
             mainAddress: "https://server.suroi.aries.pizza",
             gameAddress: "wss://server.suroi.aries.pizza/game/<gameID>",
             offset: 1
-        }/* ,
+        },
         na: {
             name: "North America",
             flag: "🇺🇸 ",
